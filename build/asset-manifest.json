@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86e48599.chunk.css",
+    "main.js": "/static/js/main.7e52ff53.chunk.js",
+    "main.js.map": "/static/js/main.7e52ff53.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b23a7837.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b23a7837.js.map",
+    "static/css/2.a9b8ed21.chunk.css": "/static/css/2.a9b8ed21.chunk.css",
+    "static/js/2.f63275dd.chunk.js": "/static/js/2.f63275dd.chunk.js",
+    "static/js/2.f63275dd.chunk.js.map": "/static/js/2.f63275dd.chunk.js.map",
+    "static/js/3.0a78dd8b.chunk.js": "/static/js/3.0a78dd8b.chunk.js",
+    "static/js/3.0a78dd8b.chunk.js.map": "/static/js/3.0a78dd8b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.a9b8ed21.chunk.css.map": "/static/css/2.a9b8ed21.chunk.css.map",
+    "static/css/main.86e48599.chunk.css.map": "/static/css/main.86e48599.chunk.css.map",
+    "static/js/2.f63275dd.chunk.js.LICENSE.txt": "/static/js/2.f63275dd.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/background_nebula.5366105f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b23a7837.js",
+    "static/css/2.a9b8ed21.chunk.css",
+    "static/js/2.f63275dd.chunk.js",
+    "static/css/main.86e48599.chunk.css",
+    "static/js/main.7e52ff53.chunk.js"
+  ]
+}

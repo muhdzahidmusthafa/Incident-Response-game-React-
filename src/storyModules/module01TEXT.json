@@ -1,0 +1,108 @@
+[
+  {
+    "KEY":"AA000AA000AA",
+    "TEXT":"On a Monday morning, the organization receives a call from the Federal Bureau of Investigation (FBI) regarding some suspicious activity involving the organizations systems. Later that day, an FBI agent meets with members of management and the legal department to discuss the activity. The FBI has been investigating activity involving public posting of sensitive documents, and some of the documents reportedly belong to the organization. The agent asks for the organizations assistance, and management asks for the incident response teams assistance in acquiring the necessary evidence to determine if these documents are legitimate or not and how they might have been leaked."
+  },
+  {
+    "KEY":"AA000AA000AB",
+    "TEXT":"The management has decided you to help the fbi agent William who is handling the case with the help of your incident response team.\n\nAre you willing to help Fbi agents?\n\n The decisions you make will decide the future security of the company"
+  },
+  {
+    "KEY":"AA001AA000AA",
+    "TEXT":"EXCELLENT,We can now analyse the situation .What should we do to prevent future trouble.\n\n "
+  },
+  {
+    "KEY":"AA001AB000AA",
+    "TEXT":"So what should we do first"
+  },
+  {
+    "KEY":"AA001AB000AB",
+    "TEXT":"Thank you for shutdown"
+  },
+  {
+    "KEY":"AA001AA000AB",
+    "TEXT":"Since you have decided to outsource from other firm to solve the security issue in the company.\n\n The management has decided to check out all the available firms which can be outsourced to help fbi officer williams."
+  },
+  {
+    "KEY":"AA001AA000AC",
+    "TEXT":"After discussion with with managers we have two clients one which we know and have been working for our company for a while but has a bad track record in solving issues but are less expensive.And other company named nivea securities which has a very good track record in solving issues but a bit expensive.\n\n Which company will you choose to solve the issue"
+  },
+  {
+    "KEY":"AA001AA000AD",
+    "TEXT":"Since we have already been attacked its better we spend some money to secure our networks .The managemet has agreed to join hands with nivea security.\n\n The team in nivea security has started collabrating with the Fbi agent .They found out that company data have been breached by unknown source .What will you do to prevent future trouble."
+  },
+  {
+    "KEY":"AA001AA000AF",
+    "TEXT":"So we have decided to segment the network .Then we encrypt all the intellectual property.So that data can be secure .\n\n We now should compliant with all the regulatory requirement and also change the management log access to limited userrs.What should be next phase ? "
+  },
+  {
+    "KEY":"AA001AA000AE",
+    "TEXT":"The company has decided to enable two factor authentication in all its systems to prevent future issues like this from occuring.\n\n Now what should be the next step taken to deal with the issue."
+  },
+  {
+    "KEY":"AA001AC000AA",
+    "TEXT":"Since you have decided to shutdown all the systems .The management is not happy with your decison.\n\n The management will lose alot of clients and company will be hugely at loss"
+  },
+  {
+    "KEY":"AA001AA000AH",
+    "TEXT":"we have started identification phase so that we can detect the occurence of the incident and document the exact time the incident occured"
+  },
+  {
+    "KEY":"AA001AA000AI",
+    "TEXT":"Before gathering evidence we have to start the segment and protect the network "
+  },
+  {
+    "KEY":"AA001AA000AJ",
+    "TEXT":"What are the things we have to do in this phase ?"
+  },
+  {
+    "KEY":"AA001AA000AK",
+    "TEXT":"After going through the surveliance records we where able to find some unknown acesss.SHould we inform the fbi officer?"
+  },
+  {
+    "KEY":"AA001AA000AM",
+    "TEXT":"Since you have decided not to share the evidence you have found with fbi officers.You have voilated fbi officers trust .This has made the management unhappy with your decision"
+  },
+  {
+    "KEY":"AA001AA000AL",
+    "TEXT":"After informing the Fbi officer the officer told to keep things confidential to find the vulnerability which helped the hacker get information and proceed with eradiction what should you do in this phase?"
+  },
+  {
+    "KEY":"AA001AA000AN",
+    "TEXT":"Since you have not kept things confidential  .You have voilated fbi officers trust .This has made the management unhappy with your decision"
+  },
+  {
+    "KEY":"AA001AA000AO",
+    "TEXT":"After going through records and vulnerabilities we were able to find the internal host resposible for this.\n\nWhat should we do next ?"
+  },
+  {
+    "KEY":"AA001AA000AQ",
+    "TEXT":"Since we have found the evidence and solved the case .What should we do next ?"
+  },
+  {
+    "KEY":"AA001AA000AR",
+    "TEXT":"congrats on finding the victim but it is no time to rest since we not recovered the stolen documnets!!"
+  },
+  {
+    "KEY":"AA001AA000AS",
+    "TEXT":"After high efforts the team have successfully recovered the stolen files.Is the work done ?"
+  },
+  {
+    "KEY":"AA001AA000AT",
+    "TEXT":"Although the work along with the fbi officer is over .The work for incident response team is not yet over because we have to document the incident .so that this can be used as a lesson to prevent similar incidents occurring in the future.\n\n we have now succesfully documented the entire incident."
+  },
+  {
+    "KEY":"AA001AA000AU",
+    "TEXT":"Work is not yet done .You have to document incident for future reference."
+  },
+  {
+    "KEY":"AA001AA000AV",
+    "TEXT":"Great work you have helped the company from danger .The management is happy with the quick thinking and the decisions you have taken.Well done!!!!!!!!! "
+  },
+  {
+    "KEY":"AA001AA000AW",
+    "TEXT":"Eradication phase can be only started after identifing the threat!"
+  }
+
+
+]

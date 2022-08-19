@@ -1,0 +1,63 @@
+{
+  "name": "incident-response",
+  "version": "0.1.0",
+  "description": "A training game for security awarness for incident response",
+  "private": true,
+  "keywords": [
+    "text adventure",
+    "game",
+    "react"
+  ],
+  "author": "Muhammad zahid",
+  "dependencies": {
+    "@awsui/components-react": "^3.0.568",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^5.2.0",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^17.0.2",
+    "react-form-login": "^1.1.4",
+    "react-leaderboard": "0.0.3",
+    "react-redux": "^7.2.5",
+    "react-router": "^3.2.6",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "react-scripts build",
+    "serve": "node server.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": "14.18.0"
+  }
+}
