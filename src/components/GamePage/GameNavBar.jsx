@@ -29,7 +29,7 @@ export class GameNavBar extends React.Component {
       <Navbar expand="lg" variant="dark">
         <Container className="game-nav-container">
           <Link to="/" className="navbar-brand">Incident response</Link>
-          <h1>{this.state.seconds}</h1>
+          <h1>Time : {this.state.seconds}sec</h1>
           <Nav>
             <Link to="/">Menu</Link>
           </Nav>

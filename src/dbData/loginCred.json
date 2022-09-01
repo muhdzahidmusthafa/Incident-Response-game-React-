@@ -1,10 +1,14 @@
 [
     {
-        "email":"zahid@gmail.com",
-        "password":"zahid123"
+        "email": "zahid@gmail.com",
+        "password": "zahid123"
     },
     {
-        "email":"firoz@gmail.com",
-        "password":"firoz123"
+        "email": "firoz@gmail.com",
+        "password": "firoz123"
+    },
+    {
+        "email": "indrani@gmail.com",
+        "password": "indrani123"
     }
 ]

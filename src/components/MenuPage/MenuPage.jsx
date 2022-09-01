@@ -1,12 +1,10 @@
 import React from "react";
-
 import MenuListContainer from "./MenuListContainer";
 import { Redirect } from "react-router-dom";
 
 import "./Style.css";
 
 export class MenuPage extends React.Component {
-  
   constructor(props) {
     super(props);
     this.state = {

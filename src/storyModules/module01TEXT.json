@@ -1,121 +1,122 @@
 [
   {
-    "KEY":"AA000AA000AA",
-    "TEXT":"INSTRUCTIONS:\n\n1) This game is designed to learn about incident response.\n\n2) This game will give you a basic knowledge of how an incident response team should react to situation.\n\n3) Your decisions will decide the next situation in the game.\n\n4) Choose your decisions wisely.\n\n5) Total time taken to complete the game successfully is recoreded in the leaderboard. "
+    "KEY": "AA000AA000AA",
+    "TEXT": "INSTRUCTIONS:\n\n1) This game is designed to learn about incident response.\n\n2) This game will give you a basic knowledge of how an incident response team should react to situation.\n\n3) Your decisions will decide the next situation in the game.\n\n4) Choose your decisions wisely.\n\n5) Total time taken to complete the game successfully is recoreded in the leaderboard. "
   },
   {
-    "KEY":"AA000AA000AB",
-    "TEXT":"On a Monday morning,Target corporation receives a call from the Federal Bureau of Investigation (FBI) about data breach in the firm. Later that day, FBI agent williams meets with members of management and the legal department to discuss the activity has alot of high profile customers personal data have been breached. The FBI has been investigating activity of data breach of clients . The FBI agent asks for the organizations assistance in finding out how this has occured,Management asks for the incident response teams assistance in acquiring the necessary evidence to determine how they might have been leaked.\n\n The management ask whether you can Lead the case along with FBI agent williams has you are the  incident manager.\n\nAre you willing assist and guide your team?\n\n The decisions you make will decide the future of the company"
+    "KEY": "AA000AA000AB",
+    "TEXT": "On a Monday morning,Target corporation receives a call from the Federal Bureau of Investigation (FBI) about data breach in the firm. Later that day, FBI agent williams meets with members of management and the legal department to discuss the activity has alot of high profile customers personal data have been breached. The FBI has been investigating activity of data breach of clients . The FBI agent asks for the organizations assistance in finding out how this has occured,Management asks for the incident response teams assistance in acquiring the necessary evidence to determine how they might have been leaked.\n\n The management ask whether you can Lead the case along with FBI agent williams has you are the  incident manager.\n\nAre you willing assist and guide your team?\n\n The decisions you make will decide the future of the company"
   },
   {
-    "KEY":"AA001AA000AA",
-    "TEXT":"EXCELLENT,We can now analyse the situation .What should we do to prevent future trouble.\n\n "
+    "KEY": "AA001AA000AA",
+    "TEXT": "EXCELLENT,We can now analyse the situation .What should we do to prevent future trouble.\n\n "
   },
   {
-    "KEY":"AA001AB000AA",
-    "TEXT":"So what should we do first"
+    "KEY": "AA001AB000AA",
+    "TEXT": "So what should we do first"
   },
   {
-    "KEY":"AA001AB000AB",
-    "TEXT":"Thank you for shutdown"
+    "KEY": "AA001AB000AB",
+    "TEXT": "Thank you for shutdown"
   },
   {
-    "KEY":"AA001AA000AB",
-    "TEXT":"Since you have told you wont be able to lead the team.The management has decided to outsource help from other firm to solve the issue in the company.You are appointed to collaborate with them.\n\n The management checks out all the available firms which can be outsourced to handle a situation like this."
+    "KEY": "AA001AA000AB",
+    "TEXT": "Since you have told you wont be able to lead the team.The management has decided to outsource help from other firm to solve the issue in the company.You are appointed to collaborate with them.\n\n The management checks out all the available firms which can be outsourced to handle a situation like this."
   },
   {
-    "KEY":"AA001AA000AC",
-    "TEXT":"After discussion with with managers we have found  two clients .One which we know and have been working for our company for a while but has a bad track record in solving issues but is less expensive.And other company named Nivea securities which has a very good track record in solving issues like these but a bit expensive.\n\n Which company will you choose to solve the issue"
+    "KEY": "AA001AA000AC",
+    "TEXT": "After discussion with with managers we have found  two clients .One which we know and have been working for our company for a while but has a bad track record in solving issues but is less expensive.And other company named Nivea securities which has a very good track record in solving issues like these but a bit expensive.\n\n Which company will you choose to solve the issue"
   },
   {
-    "KEY":"AA001AA000BA",
-    "TEXT":"The management is not happy with your decision .Even after knowing the fact that the company you have chosen has a very bad track record in solving security breach incident.\n\n This is really important for the firm has it will affect the companys value."
+    "KEY": "AA001AA000BA",
+    "TEXT": "The management is not happy with your decision .Even after knowing the fact that the company you have chosen has a very bad track record in solving security breach incident.\n\n The team is in a panic situation"
   },
   {
-    "KEY":"AA001AA000AZ",
-    "TEXT":"Since you choose to collaborate with nivea securities,the management feels you have taken the right decision.You  along with with your incident response team will now collaborate with nivea securities team and take decisions for solving the data breach."
+    "KEY": "AA001AA000AZ",
+    "TEXT": "Since you choose to collaborate with nivea securities,the management feels you have taken the right decision.You  along with with your incident response team will now collaborate with nivea securities team and take decisions for solving the data breach."
   },
   {
-    "KEY":"AA001AA000AD",
-    "TEXT":"Since you know data have been breached what is the first step you have to take?"
+    "KEY": "AA001AA000AD",
+    "TEXT": "Since you know data have been breached what is the first step you have to take?"
   },
   {
-    "KEY":"AA001AA000AF",
-    "TEXT":"The team started collected evidence.To find the leak in the system so that they can contain the situation.\n\n The containment is done to stop the situation from getting worse .\n\n What do you do now ?"
+    "KEY": "AA001AA000AF",
+    "TEXT": "The team started collected evidence.To find the leak in the system so that they can contain the situation.\n\n Next,The containment is done to stop the situation from getting worse .\n\n What do you do now ?"
   },
   {
-    "KEY":"AA001AA000AE",
-    "TEXT":"The company has decided to enable two factor authentication in all its systems to prevent future issues like this from occuring.\n\n Now what should be the next step taken to deal with the issue."
+    "KEY": "AA001AA000AE",
+    "TEXT": "The company has decided to enable two factor authentication in all its systems to prevent future issues like this from occuring.\n\n Now what should be the next step taken to deal with the issue."
   },
   {
-    "KEY":"AA001AC000AB",
-    "TEXT":"Restricting service of all clients is not a wise decision in the situation like this.\n\nThis will create a panic situation among clients and will result in loss of clients for the comapany.The management is not happy with your decison."
+    "KEY": "AA001AC000AB",
+    "TEXT": "Restricting service of all clients is not a wise decision in the situation like this.\n\nThis will create a panic situation among clients and will result in loss of clients for the comapany.The management is not happy with your decison."
   },
   {
-    
-    "KEY":"AA001AC000AA",
-    "TEXT":"Since you have decided to shutdown all the systems .The management is not happy with your decison.\n\n The management will lose alot of clients and company will be hugely at loss"
+    "KEY": "AA001AC000AA",
+    "TEXT": "Since you have decided to shutdown all the systems .The management is not happy with your decison.\n\n The management will lose alot of clients and company will be hugely at loss"
   },
   {
-    "KEY":"AA001AA000AH",
-    "TEXT":"we have started identification phase so that we can detect the occurence of the incident and document the exact time the incident occured"
+    "KEY": "AA001AA000AH",
+    "TEXT": "we have started identification phase so that we can detect the occurence of the incident and document the exact time the incident occured"
   },
   {
-    "KEY":"AA001AA000AI",
-    "TEXT":"Before gathering evidence we have to start the segment and protect the network "
+    "KEY": "AA001AA000AI",
+    "TEXT": "Before gathering evidence we have to start the segment and protect the network "
   },
   {
-    "KEY":"AA001AA000AJ",
-    "TEXT":"What are the things we have to do in this phase ?"
+    "KEY": "AA001AA000AJ",
+    "TEXT": "What are the things we have to do in this phase ?"
   },
   {
-    "KEY":"AA001AA000AK",
-    "TEXT":"After segmenting the network we are able to limit the risk from spreading.The evidence found after investiagtion shows an internal host accessing the records without permission.\n\nShould we inform the fbi officer?"
+    "KEY": "AA001AA000AK",
+    "TEXT": "After segmenting the network we are able to limit the risk from spreading.The evidence found after investiagtion shows an internal host accessing the records without permission.\n\nShould we inform the fbi officer?"
   },
   {
-    "KEY":"AA001AA000AM",
-    "TEXT":"Since you have decided not to share the evidence you have found with fbi officers.You have voilated fbi officers trust .This has made the management unhappy with your decision"
+    "KEY": "AA001AA000AM",
+    "TEXT": "Since you have decided not to share the evidence you have found with fbi officers.You have voilated fbi officers trust .This has made the management unhappy with your decision"
   },
   {
-    "KEY":"AA001AA000AL",
-    "TEXT":"After informing the Fbi officer the officer told to keep things confidential to find the vulnerability which helped the hacker get information .You have found that someone inside is responsible for this.\n\nDisable compromised user accounts.Then send regulatory notice to users. what should you do in this next?"
+    "KEY": "AA001AA000AL",
+    "TEXT": "After informing the Fbi officer the officer told to keep things confidential to find the vulnerability which helped the hacker get information .You have found that someone inside is responsible for this.\n\nDisable compromised user accounts.Then send regulatory notice to users. what should you do in this next?"
   },
   {
-    "KEY":"AA001AA000AN",
-    "TEXT":"Since you have not kept things confidential  .You have voilated fbi officers trust .This has made the management unhappy with your decision"
+    "KEY": "AA001AA000AN",
+    "TEXT": "Since you have not kept things confidential  .You have voilated fbi officers trust .This has made the management unhappy with your decision"
   },
   {
-    "KEY":"AA001AA000AO",
-    "TEXT":"After going through records and vulnerabilities we were able to find the internal host resposible for this.\n\nWhat should we do next ?"
+    "KEY": "AA001AA000AO",
+    "TEXT": "After going through records and vulnerabilities we were able to find the internal host resposible for this.\n\nWhat should we do next ?"
   },
   {
-    "KEY":"AA001AA000AQ",
-    "TEXT":"Since we have found the evidence and solved the case .What should we do next ?"
+    "KEY": "AA001AA000AQ",
+    "TEXT": "Since we have found the evidence and solved the case .What should we do next ?"
   },
   {
-    "KEY":"AA001AA000AR",
-    "TEXT":"congrats on finding the victim but it is no time to rest since we not recovered the stolen documnets!!"
+    "KEY": "AA001AA000AR",
+    "TEXT": "Congratulations on finding the victim but it is no time to rest.We have to recover the stolen documents!!"
   },
   {
-    "KEY":"AA001AA000AS",
-    "TEXT":"After high efforts the team have successfully recovered the stolen files.Now the team has two protect the company data and prevent this from happening again by adding two factor authentication.What should the team do finally?"
+    "KEY": "AA001AA000AS",
+    "TEXT": "After high efforts the team have successfully recovered the stolen files.Now the team has to protect the company data and prevent this from happening again .\n\n This can be done by adding two factor authentication.What should the team do finally?"
   },
   {
-    "KEY":"AA001AA000AT",
-    "TEXT":"Although the work along with the fbi officer is over .The work for incident response team is not yet over because we have to document the incident .so that this can be used as a lesson to prevent similar incidents occurring in the future.\n\n we have now succesfully documented the entire incident."
+    "KEY": "AA001AA000AT",
+    "TEXT": "Although the work along with the fbi officer is over .The work for incident response team is not yet over because we have to document the incident .so that this can be used as a lesson to prevent similar incidents occurring in the future.\n\n we have now succesfully documented the entire incident."
   },
   {
-    "KEY":"AA001AA000AU",
-    "TEXT":"Work is not yet done .You have to document incident for future reference."
+    "KEY": "AA001AA000AU",
+    "TEXT": "Work is not yet done .You have to document incident for future reference."
   },
   {
-    "KEY":"AA001AA000AV",
-    "TEXT":"Great work you have helped the company from danger .The management is happy with the quick thinking and the decisions you have taken.Well done!!!!!!!!! "
+    "KEY": "AA001AA000AV",
+    "TEXT": "Great work you have helped the company from danger .The management is happy with the quick thinking and the decisions you have taken.Well done!!!!!!!!! "
   },
   {
-    "KEY":"AA001AA000AW",
-    "TEXT":"Eradication phase can be only started after identifing the threat!"
+    "KEY": "AA001AA000AW",
+    "TEXT": "Eradication phase can be only started after identifing the threat!"
+  },
+  {
+    "KEY": "AA001AA000AP",
+    "TEXT":"Keeping important information away from the officials is not a wise decision .Management is not happy"
   }
-
-
 ]

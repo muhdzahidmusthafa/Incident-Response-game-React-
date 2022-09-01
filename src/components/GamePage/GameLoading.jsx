@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import { Spinner } from 'react-bootstrap';
-import GamePageContainer from './GamePageContainer';
+import { Spinner } from "react-bootstrap";
+import GamePageContainer from "./GamePageContainer";
 
 export class GameLoading extends React.Component {
   render() {
@@ -14,12 +14,9 @@ export class GameLoading extends React.Component {
             <span className="visually-hidden">Loading...</span>
           </Spinner>
         </div>
-      )
-    }
-    else {  
-      return (
-        <GamePageContainer />
       );
+    } else {
+      return <GamePageContainer />;
     }
   }
 }

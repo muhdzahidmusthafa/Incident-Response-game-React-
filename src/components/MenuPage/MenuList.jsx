@@ -1,10 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-import constants from '../../globals/constants';
-import GameManager from '../../mechanics/GameManager';
-import { checkIfGameOver } from '../../mechanics/helpers';
+import constants from "../../globals/constants";
+import GameManager from "../../mechanics/GameManager";
+import { checkIfGameOver } from "../../mechanics/helpers";
+import imagesndjs from "../../assets/960x0.jpeg"
+import ghjk from "../../assets/COMING_SOON.jpeg"
+
+import "./Style.css";
 
 export class MenuList extends React.Component {
   constructor(props) {
@@ -14,31 +18,23 @@ export class MenuList extends React.Component {
     this.loadData = this.loadData.bind(this);
   }
 
-  startNewGame() {    
-    const {
-      startGame,
-      resetTextChoices,
-      resetVariables,
-    } = this.props;
-    localStorage.setItem('start_second',0);
+  startNewGame() {
+    const { startGame, resetTextChoices, resetVariables } = this.props;
+    localStorage.setItem("start_second", 0);
 
     // Dispatch Redux actions
     startGame();
     resetTextChoices();
     resetVariables();
-   
-    
+
     this.loadData();
   }
 
   loadData() {
-    const {
-      loadModuleData,
-      setLoading
-    } = this.props;
+    const { loadModuleData, setLoading } = this.props;
 
     // Check if text data is already loaded - only load if it's not
-    if (!(GameManager.checkIfModuleLoaded(constants.MODULE_INCIDENT))) {
+    if (!GameManager.checkIfModuleLoaded(constants.MODULE_INCIDENT)) {
       // Set loading flag for GameLoadingContainer
       setLoading(true);
       // Dispatch Redux action to load text data
@@ -46,21 +42,30 @@ export class MenuList extends React.Component {
     }
   }
 
-  // Starting a new game should load everything from a default state (using
-  // the startNewGame function). Resuming a game shouldn't need to load anything,
-  // unless the state has been loaded from browser storage (after a hard page
-  // refresh, or going to the page again after closing it). The text data is
-  // too large to keep in browser storage, so it must be loaded again. 
+  // the startNewGame function
   render() {
     const { gameStarted, currentNodeKey } = this.props;
-    const gameOver = (checkIfGameOver(currentNodeKey));
+    const gameOver = checkIfGameOver(currentNodeKey);
 
     return (
       <div className="menu-list">
-        <h3><Link to="/game" onClick={ this.startNewGame }>New Game</Link></h3>
-        {gameStarted && !gameOver &&
-        <h3><Link to="/game" onClick={ this.loadData }>Resume Game</Link></h3>
-        }
+        <h3>
+          <div>
+          <div style={{float: "left", width: "45%", height:"400px", backgroundImage:`url(${imagesndjs})`,backgroundSize: 'cover' ,borderRadius:"20px"}}>
+            {/* <img src={imagesndjs} style={{width:"250px", height:"250px"}}/> */}
+        <button className="optionButton">
+            <Link to="/game" onClick={this.startNewGame}>
+              Data Breach
+            </Link>
+          </button>
+    </div>
+    <div style={{float: "right", width: "45%", height:"400px", backgroundImage:`url(${ghjk})`,backgroundSize: 'cover', borderRadius:"20px"}}>
+    {/* <button className="Disabled">Work In Progress</button> */}
+    </div>
+          </div>
+          
+        </h3>
+        
       </div>
     );
   }

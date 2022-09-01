@@ -6,6 +6,7 @@ import GameLoadingContainer from "./components/GamePage/GameLoadingContainer";
 import { MenuPage } from "./components/MenuPage/MenuPage";
 import { Login } from "./components/LogInPage/login";
 import LeaderBoardPage from "./components/LeadBoardPage/LeaderBoard";
+import OptionPage from "./components/OptionsPage/OptionPage";
 
 const App = ({ store }) => (
   <Provider store={store}>
@@ -15,8 +16,11 @@ const App = ({ store }) => (
           <Route exact path="/game">
             <GameLoadingContainer />
           </Route>
-          <Route exact path="/">
+          <Route exact path="/playexisting">
             <MenuPage />
+          </Route>
+          <Route exact path="/">
+            <OptionPage />
           </Route>
           <Route exact path="/login">
             <Login />

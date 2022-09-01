@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import GameManager from '../../mechanics/GameManager';
-import constants from '../../globals/constants';
-import { checkIfGameOver } from '../../mechanics/helpers';
+import React from "react";
+import { Link } from "react-router-dom";
+import GameManager from "../../mechanics/GameManager";
+import constants from "../../globals/constants";
+import { checkIfGameOver } from "../../mechanics/helpers";
 
 export class GameChoiceItem extends React.Component {
   constructor(props) {
@@ -25,10 +25,25 @@ export class GameChoiceItem extends React.Component {
 
     return (
       <p>
-        {!gameOver && <a href="/#" className={ cssClasses } onClick={ this.makeDecision }>
-          { choice.text || constants.CONTINUE_TEXT }
-        </a>}
-        {gameOver && <Link className="game-choice-item color-choice" to="/">{constants.END_CHOICE}</Link>}
+        <button
+          style={{
+            backgroundColor: "#009999",
+            // border: "None",
+            boxShadow: "0px 2px 2px lightgrey",
+          }}
+        >
+          {!gameOver && (
+            <a href="/#" className={cssClasses} onClick={this.makeDecision}>
+              {choice.text || constants.CONTINUE_TEXT}
+              {constants.XYZ}
+            </a>
+          )}
+        {gameOver && (
+          <Link className={cssClasses} to="/">
+            {constants.END_CHOICE}
+          </Link>
+        )}
+        </button>
       </p>
     );
   }

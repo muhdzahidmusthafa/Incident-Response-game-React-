@@ -9,11 +9,28 @@ export function checkIfGameOver(currentNodeKey) {
 
 export function checkIfGameEnded(currentNodeKey) {
   if (currentNodeKey === constants.END_KEY) {
+    console.log("dmfjgnjhjgnjhnj yaha aaya tha ");
     if (localStorage.getItem("LEADERBOARDDATA")) {
-      JSON.parse(localStorage.getItem("LEADERBOARDDATA")).push({
+      let json = {
         name: localStorage.getItem("LOGINDATA"),
-        Score: localStorage.getItem("start_second"),
+        score: localStorage.getItem("start_second"),
+      };
+      console.log("json data ", json);
+      let find_index = null;
+      let lead_board_data = JSON.parse(localStorage.getItem("LEADERBOARDDATA"));
+      lead_board_data.map((element, index) => {
+        if (element.name == localStorage.getItem("LOGINDATA")) {
+          find_index = index;
+        }
       });
+      if (find_index == null) {
+        lead_board_data[lead_board_data.length] = json;
+      } else {
+        lead_board_data[find_index] = json;
+      }
+      localStorage.setItem("LEADERBOARDDATA", JSON.stringify(lead_board_data));
+
+      console.log("setn hone ki kosis huwa ");
     } else {
       localStorage.setItem(
         "LEADERBOARDDATA",

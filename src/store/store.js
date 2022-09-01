@@ -15,7 +15,6 @@ const configureStore = (preloadedState = {}) => {
   store.subscribe(() => {
     let state = store.getState();
     
-    // Don't put loaded JSON data in browser storage
     let modifiedState = {
       ...state,
       data: {

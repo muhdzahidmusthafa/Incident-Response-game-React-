@@ -15,7 +15,7 @@ export class LeaderBoardPage extends React.Component {
     return (
       <div className="leadboardBox">
         {this.state.users.length > 0 ? (
-          <Leaderboard users={this.state.users} paginate={1} asc={false} />
+          <Leaderboard users={this.state.users} paginate={1} asc={true} />
         ) : (
           <h1>No Data Found</h1>
         )}
