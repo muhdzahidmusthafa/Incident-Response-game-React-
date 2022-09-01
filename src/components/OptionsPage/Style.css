@@ -1,0 +1,36 @@
+.optionButton {
+  color: black;
+  background-color: #2fbada;
+  padding: 10px 15px;
+  border-radius: 5px;
+  outline: 0;
+  text-transform: uppercase;
+  margin: 50px 10px;
+  cursor: pointer;
+  box-shadow: 0px 2px 2px lightgray;
+  font-size: 50px;
+  border: 2px solid white;
+  height: 100px;
+  transition-duration: 0.4s;
+}
+
+.optionButton:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 white;
+}
+
+.Disabled {
+  color: black;
+  background-color: lightgray;
+  padding: 10px 15px;
+  border-radius: 5px;
+  outline: 0;
+  text-transform: uppercase;
+  margin: 50px 10px;
+  cursor: pointer;
+  box-shadow: 0px 2px 2px lightgray;
+  font-size: 50px;
+  border: 2px 10px solid white;
+  height: 100px;
+}
