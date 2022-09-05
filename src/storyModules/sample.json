@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "end": false,
+        "text": "Since you have told you wont be able to lead the team.The management has decided to outsource help from other firm to solve the issue in the company.You are appointed to collaborate with them.\n\n The management checks out all the available firms which can be outsourced to handle a situation like this. jdhgfscvbxnjdehghdsvbx jkweuyhgfdsbvcxnasj",
+        "options": [
+            {
+                "text": "I m Fine",
+                "next_step": 4
+            },
+            {
+                "text": "I m not Fine",
+                "next_step": 3
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "end": false,
+        "text": "Am i Good?",
+        "options": [
+            {
+                "text": "yes",
+                "next_step": 2
+            },
+            {
+                "text": "No",
+                "next_step": 3
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "end": true,
+        "text": "You have passed"
+    },
+    {
+        "id": 3,
+        "end": true,
+        "text": "You have failed"
+    }
+]

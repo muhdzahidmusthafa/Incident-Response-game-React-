@@ -7,7 +7,11 @@ import { MenuPage } from "./components/MenuPage/MenuPage";
 import { Login } from "./components/LogInPage/login";
 import LeaderBoardPage from "./components/LeadBoardPage/LeaderBoard";
 import OptionPage from "./components/OptionsPage/OptionPage";
+import NewGame from "./components/NewGame/NewGame";
+import NewGame1 from "./components/NewGame/newgame1";
 
+
+localStorage.clear()
 const App = ({ store }) => (
   <Provider store={store}>
     <Router>
@@ -15,6 +19,12 @@ const App = ({ store }) => (
         <Switch>
           <Route exact path="/game">
             <GameLoadingContainer />
+          </Route>
+          <Route exact path="/newgame">
+            <NewGame />
+          </Route>
+          <Route exact path="/newgame1">
+            <NewGame1 />
           </Route>
           <Route exact path="/playexisting">
             <MenuPage />

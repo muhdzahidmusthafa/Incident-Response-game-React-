@@ -1,0 +1,157 @@
+[
+    {
+        "id": 1,
+        "end": false,
+        "text": "Qtech is an multi national company which deals with budget travel around the world.Qtech deals with high profile clients all over the world.\n\n Ryan is an employee of Qtech who handles customer aquisation.Ryan is currently working remote for the evening.\n\n On a friday morning Ryan rececives a email email from a client for cancelling a trip.He clicks on the email to check for more details of the user.The companys login in portal appears.Then ryan enters his credentials to gain access.Ryan has unknowingly given access to companys network ./n/nRyan then realises its an malicious link and he has given access to the hacker. Ryan calls you has you are incident response team member of the company.What will you do?",
+        "options": [
+            {
+                "text": "Help ryan in the situation",
+                "next_step": 2
+            },
+            {
+                "text": "Tell ryan its not an issue ",
+                "next_step": 3
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "end": false,
+        "text": "You then ask Ryan to give more details he then explains that he has he cannot access few files in his laptop.\n\n What would you ?",
+        "options": [
+            {
+                "text": "Instruct Ryan and help him Re-configure the network",
+                "next_step": 4
+            },
+            {
+                "text": "Tell him you will figure out what to do on monday",
+                "next_step": 5
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "end": true,
+        "text":"You have failed"
+    },
+    {
+        "id": 5,
+        "end": false,
+        "text": "The attacker has gained total control over the system by the weekend.Locks all the accounts all over the network.You get to know about the situation and immediately call Ryan .What do you do now?",
+        "options": [
+            {
+                "text": "Instruct Ryan and help him Re-configure the network",
+                "next_step": 4
+            },
+            {
+                "text": "Shutdown the companies servers",
+                "next_step": 6
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "end": true,
+        "text": "You have failed"
+    },
+    {
+        "id": 4,
+        "end": false,
+        "text": "The attacker have already gained access of the encrypted files .Now demands £100000 .The management informs you to take immediate actions",
+        "options": [
+            {
+                "text": "Limit the network and shutdown affected the networks",
+                "next_step": 8
+            },
+            {
+                "text": "pay the ransom",
+                "next_step": 7
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "end": true,
+        "text": "The company will now face a huge financial loss.You failed try again"
+    },
+    {
+        "id": 8,
+        "end": false,
+        "text": "After limiting the network and shuting the network .We now can kick the hacker out from the server.What do you do next",
+        "options": [
+            {
+                "text": "Set two factor authentication",
+                "next_step": 10
+            },
+            {
+                "text": "Recover the files stolen",
+                "next_step": 9
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "end": false,
+        "text": "Before recovering the stolen files we have to gain total control and make sure the user doesnot enter the network again.What do you do next",
+        "options": [
+            {
+                "text": "Set two factor authentication",
+                "next_step": 10
+            },
+            {
+                "text": "Try shuting down entire server",
+                "next_step": 11
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "end": true,
+        "text": "The company will now face a huge financial loss if the servers are down.You failed try again"
+    },
+    {
+        "id": 10,
+        "end": false,
+        "text": "After setting two factor authentication to all the networks and login data of staffs .Now the attacker has lost total control of the network.What is the next step",
+        "options": [
+            {
+                "text": "Work is done",
+                "next_step": 12
+            },
+            {
+                "text":"Recover the lost data files",
+                "next_step": 13
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "end": true,
+        "text": "Recovering the lost data is most important aspect.You failed try again"
+    },
+    {
+        "id": 13,
+        "end": false,
+        "text": "Qtech has now successfully recovered all the lost data.The attack cant ask for ransom now.Is the work done?",
+        "options": [
+            {
+                "text": "Work is done",
+                "next_step": 14
+            },
+            {
+                "text":"Document the entire incident",
+                "next_step": 15
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "end": true,
+        "text": "Work is not yet done .You have to document incident for future reference.You failed try again"
+    },
+    {
+        "id": 15,
+        "end": true,
+        "text": "Great work you have helped the company from danger .The management is happy with the quick thinking and the decisions you have taken.Well done!!!!!!!!!  You finished the game"
+    }
+]

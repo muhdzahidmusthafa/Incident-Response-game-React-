@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { Link } from "react-router-dom";
-
 import constants from "../../globals/constants";
 import GameManager from "../../mechanics/GameManager";
 import { checkIfGameOver } from "../../mechanics/helpers";
-import imagesndjs from "../../assets/960x0.jpeg"
-import ghjk from "../../assets/COMING_SOON.jpeg"
+import imagesndjs from "../../assets/960x0.jpeg";
+import ransom from "../../assets/ransomewareattack.jpg"
+import green from "../../assets/green.jpg";
 
 import "./Style.css";
 
@@ -29,7 +29,6 @@ export class MenuList extends React.Component {
 
     this.loadData();
   }
-
   loadData() {
     const { loadModuleData, setLoading } = this.props;
 
@@ -51,21 +50,79 @@ export class MenuList extends React.Component {
       <div className="menu-list">
         <h3>
           <div>
-          <div style={{float: "left", width: "45%", height:"400px", backgroundImage:`url(${imagesndjs})`,backgroundSize: 'cover' ,borderRadius:"20px"}}>
-            {/* <img src={imagesndjs} style={{width:"250px", height:"250px"}}/> */}
-        <button className="optionButton">
-            <Link to="/game" onClick={this.startNewGame}>
-              Data Breach
-            </Link>
-          </button>
-    </div>
-    <div style={{float: "right", width: "45%", height:"400px", backgroundImage:`url(${ghjk})`,backgroundSize: 'cover', borderRadius:"20px"}}>
-    {/* <button className="Disabled">Work In Progress</button> */}
-    </div>
+            <div
+              style={{
+                float: "left",
+                width: "45%",
+                height: "400px",
+                backgroundImage: `url(${imagesndjs})`,
+                backgroundSize: "cover",
+                borderRadius: "20px",
+              }}
+            >
+              {/* <img src={imagesndjs} style={{width:"250px", height:"250px"}}/> */}
+              <button className="optionButton">
+                <Link to="/game" onClick={this.startNewGame}>
+                  Data Breach
+                </Link>
+              </button>
+            </div>
+            <div
+              style={{
+                float: "right",
+                width: "45%",
+                height: "400px",
+                backgroundImage: `url(${ransom})`,
+                backgroundSize: "cover",
+                borderRadius: "20px",
+              }}
+            >
+              {/* <button className="Disabled">Work In Progress</button> */}
+              {localStorage.getItem("customGame") ? (
+                <button className="optionButton">
+                  <Link to="/newgame">Ransomware Attack</Link>
+                </button>
+              ) : (
+                <>
+                  
+                  <Link to="/newgame">
+                    <button className="optionButton"> Ransomware</button>
+                  </Link>
+                </>
+              )}
+            </div>
+            <div
+              style={{
+                float: "left",
+                width: "45%",
+                height: "400px",
+                backgroundImage: `url(${green})`,
+                backgroundSize: "cover",
+                borderRadius: "20px",
+              }}
+            >
+              {/* <button className="Disabled">Work In Progress</button> */}
+              {localStorage.getItem("customGame") ? (
+                <button className="optionButton">
+                  <Link to="/newgame1">Custom Game</Link>
+                </button>
+              ) : (
+                <>
+                  <textarea
+                    placeholder="create your own game by entering  json file here "
+                    onChange={(e) => {
+                      console.log(e.target.value);
+                      localStorage.setItem("customGame", e.target.value);
+                    }}
+                  />
+                  <Link to="/newgame1">
+                    <button className="optionButton"> Execute</button>
+                  </Link>
+                </>
+              )}
+            </div>
           </div>
-          
         </h3>
-        
       </div>
     );
   }

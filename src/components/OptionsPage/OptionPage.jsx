@@ -6,8 +6,7 @@ export class OptionPage extends React.Component {
   componentDidMount() {
     if (!localStorage.getItem("LEADERBOARDDATA")) {
       localStorage.setItem("LEADERBOARDDATA", JSON.stringify([
-        { name: "zahid", score: "39" },
-        { name: "zain", score: "89" },
+       
       ]));
     }
   }
