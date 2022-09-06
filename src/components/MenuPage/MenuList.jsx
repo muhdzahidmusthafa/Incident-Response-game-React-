@@ -109,7 +109,7 @@ export class MenuList extends React.Component {
               ) : (
                 <>
                   <textarea
-                    placeholder="create your own game by entering  json file here "
+                    placeholder="create your own game scenario by entering  json file here "
                     onChange={(e) => {
                       console.log(e.target.value);
                       localStorage.setItem("customGame", e.target.value);
